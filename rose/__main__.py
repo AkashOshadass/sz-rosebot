@@ -144,7 +144,7 @@ start_button = InlineKeyboardMarkup(
                 text="💫 Support", url="https://t.me/Darkenbotsupport"
             ),
             InlineKeyboardButton(
-                text="👨‍💻Developer", url="http://t.me/Oshebrosl1"
+                text="👨‍💻Developer", url="http://t.me/Oshebrosl1_bot"
             ),
         ],
         [
@@ -234,7 +234,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @szrosebot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @darkenghostbot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -818,17 +818,17 @@ async def commands_callbacc(_, CallbackQuery):
     modules_count = len(ALL_MODULES)
 
     TEXT_PART = f"""
-@szrosebot ** is one of the fastest and most feature filled group manager**.   
+@darkenghostbott ** is one of the fastest and most feature filled group manager**.   
  
  - **Latest Update Time** : `2022 {dater}:{timer}`
  - **Modules Loaded **:  `{modules_count}`
  - **Globally banned users.** :  `{gbans}`
-@szrosebot **Mongo database stats**
+@darkenghostbot **Mongo database stats**
  - ** Users ** : `{served_users}`
  - ** chats.** : `{served_chats}`
 
  
- **Why Rose**:
+ **Why Ghost**:
  
 - **Simple**: `Easy usage and compaitble with many bot commands.`
 - **Featured**: `Many features which other group management bots don't have.`
@@ -844,7 +844,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 TEXT_PART_1 = """
 **Welcome to the Ghost Configuration**
-The first thing to do is to add Ghost Bot ✨ to your group! 
+The first thing to do is to add Ghost Bot 👻 to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -873,7 +873,7 @@ We would love to help you.
 
 BUTTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Rose to Chat ! 🎉', url='http://t.me/darkenghostbot?startgroup=new')
+        InlineKeyboardButton('Add Rose to Chat ! 👻', url='http://t.me/darkenghostbot?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_1")
         ]]
@@ -914,13 +914,13 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@szrosebot is one of the fastest and most feature filled group manager.
+@darkenghostbot is one of the fastest and most feature filled group manager.
 
-Ghost ✨ is developed and actively maintained by @Darkenbotsteam!
+Ghost 👻 is developed and actively maintained by @Darkenbotsteam!
 
-Rose has been online since 2022/2/28 and have many [groups and users.](https://t.me/Darkenbotsteam)
+Ghost has been online since 2022/2/28 and have many [groups and users.](https://t.me/Darkenbotsteam)
 
-**Why Rose:**
+**Why Ghost 👻:**
 - **Simple**: Easy usage and compaitble with many bot commands.
 - **Featured**: Many features which other group management bots don't have.
 - **Fast**: Pyrogram base bot and use mongo as database.
@@ -961,7 +961,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 TEXT_PAT_1 = """
 **Welcome to the Rose Configuration**
-The first thing to do is to add Ghost Bot ✨ to your group! 
+The first thing to do is to add Ghost Bot 👻 to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
