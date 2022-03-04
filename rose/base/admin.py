@@ -176,7 +176,7 @@ async def commands_callbacc(_, CallbackQuery):
 supun = """
 Make it easy to admins for manage users and groups with the admin module!
 
-Rose's Admin commands  comes under **4** types.
+Ghost's Admin commands  comes under **4** types.
 
 1).**Promote/Demote** - promote or demote any user as admin.
 2).**Punishment** - Punish any user to with ban,mute,kick,warn
